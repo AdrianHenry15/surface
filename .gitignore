@@ -1,0 +1,41 @@
+# Virtual environment
+venv/
+.env
+*.venv
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs & temp files
+logs/
+*.log
+debug.log
+.DS_Store
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Model checkpoints & generated files
+models/*.pth
+gansynth/checkpoints/
+gansynth/output/
+melgan/output/
+samples/*.wav
+samples/*.mp3
+samples/*.mid
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# VSCode settings
+.vscode/
+
+# Misc
+.idea/
+*.swp
+*.swo
